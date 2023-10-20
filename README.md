@@ -56,3 +56,12 @@ Test Accuracy: 0.9712371826171875
 About dataset:
 - The 2019 edition focuses on countermeasures for all three major attack types, mainly from TTS, VC and replay spoofing attacks.
 - While the training and development sets contain spoofing attacks generated with the same algorithms/conditions (designated as known attacks), the evaluation set also contains attacks generated with different algorithms/conditions (designated as unknown attacks). Reliable spoofing detection performance therefore calls for systems that generalise well to previously-unseen spoofing attacks.
+
+
+Article used for training ensemble model : https://medium.com/@alexppppp/how-to-train-an-ensemble-of-convolutional-neural-networks-for-image-classification-8fc69b087d3 
+
+Dataset used for training - AsvSpoof 2019
+
+num_epochs = 20
+learning_rate = 0.001
+batch_size = 32
