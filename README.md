@@ -58,6 +58,10 @@ About dataset:
 - While the training and development sets contain spoofing attacks generated with the same algorithms/conditions (designated as known attacks), the evaluation set also contains attacks generated with different algorithms/conditions (designated as unknown attacks). Reliable spoofing detection performance therefore calls for systems that generalise well to previously-unseen spoofing attacks.
 
 
+__________
+
+## NEW ENSEMBLE MODEL
+
 Article used for training ensemble model : https://medium.com/@alexppppp/how-to-train-an-ensemble-of-convolutional-neural-networks-for-image-classification-8fc69b087d3 
 
 Dataset used for training - AsvSpoof 2019
