@@ -286,127 +286,312 @@ Parameters:
 - epoch = 30, batch size = 32
 - L2 regularization
 
-
+learning_rates = [0.01,0.009048374180359595, 0.008187307530779819, 0.007408182206817179, 0.006703200460356393, 0.006065306597126334,0.005488116360940264, 0.004965853037914095, 0.004493289641172216,0.004065696597405992, 0.0036787944117144234, 0.003328710836980796, 0.0030119421191220205, 0.002725317930340126, 0.0024659696394160645,0.0022313016014842983, 0.002018965179946554,0.001826835240527346, 0.0016529888822158654, 0.0014956861922263505, 0.0013533528323661271, 0.001224564282529819, 0.0011080315836233387, 0.001002588437228037,0.0009071795328941247, 0.0008208499862389881, 0.0007427357821433388, 0.0006720551273974976,  0.0006081006262521795, 0.0005502322005640721]
 Epoch 1: LearningRateScheduler setting learning rate to 0.01.
 Epoch 1/30
-794/794 [==============================] - 23s 28ms/step - loss: 1.9718 - accuracy: 0.7883 - val_loss: 1.2878 - val_accuracy: 0.8974 - lr: 0.0100
+794/794 [==============================] - 24s 29ms/step - loss: 1.6818 - accuracy: 0.8032 - val_loss: 1.7542 - val_accuracy: 0.8974 - lr: 0.0100
 
 Epoch 2: LearningRateScheduler setting learning rate to 0.009048374180359595.
 Epoch 2/30
-794/794 [==============================] - 23s 29ms/step - loss: 1.3348 - accuracy: 0.8009 - val_loss: 0.9909 - val_accuracy: 0.8591 - lr: 0.0090
+794/794 [==============================] - 23s 29ms/step - loss: 0.9956 - accuracy: 0.8169 - val_loss: 0.5479 - val_accuracy: 0.8872 - lr: 0.0090
 
 Epoch 3: LearningRateScheduler setting learning rate to 0.008187307530779819.
 Epoch 3/30
-794/794 [==============================] - 23s 29ms/step - loss: 0.7720 - accuracy: 0.8126 - val_loss: 0.4112 - val_accuracy: 0.9005 - lr: 0.0082
+794/794 [==============================] - 23s 29ms/step - loss: 0.6582 - accuracy: 0.8350 - val_loss: 1.0574 - val_accuracy: 0.5873 - lr: 0.0082
 
 Epoch 4: LearningRateScheduler setting learning rate to 0.007408182206817179.
 Epoch 4/30
-794/794 [==============================] - 23s 29ms/step - loss: 0.5580 - accuracy: 0.8236 - val_loss: 0.3907 - val_accuracy: 0.8666 - lr: 0.0074
+794/794 [==============================] - 23s 29ms/step - loss: 0.5822 - accuracy: 0.8392 - val_loss: 0.7318 - val_accuracy: 0.8974 - lr: 0.0074
 
 Epoch 5: LearningRateScheduler setting learning rate to 0.006703200460356393.
 Epoch 5/30
-794/794 [==============================] - 23s 29ms/step - loss: 0.5123 - accuracy: 0.8309 - val_loss: 0.6011 - val_accuracy: 0.8044 - lr: 0.0067
+794/794 [==============================] - 23s 29ms/step - loss: 0.5334 - accuracy: 0.8559 - val_loss: 0.6699 - val_accuracy: 0.8978 - lr: 0.0067
 
 Epoch 6: LearningRateScheduler setting learning rate to 0.006065306597126334.
 Epoch 6/30
-794/794 [==============================] - 23s 29ms/step - loss: 0.4761 - accuracy: 0.8314 - val_loss: 0.4123 - val_accuracy: 0.8558 - lr: 0.0061
+794/794 [==============================] - 23s 29ms/step - loss: 0.4788 - accuracy: 0.8591 - val_loss: 0.3457 - val_accuracy: 0.9143 - lr: 0.0061
 
 Epoch 7: LearningRateScheduler setting learning rate to 0.005488116360940264.
 Epoch 7/30
-794/794 [==============================] - 23s 29ms/step - loss: 0.4431 - accuracy: 0.8344 - val_loss: 0.4489 - val_accuracy: 0.8524 - lr: 0.0055
+794/794 [==============================] - 23s 29ms/step - loss: 0.4345 - accuracy: 0.8642 - val_loss: 0.3284 - val_accuracy: 0.9263 - lr: 0.0055
 
 Epoch 8: LearningRateScheduler setting learning rate to 0.004965853037914095.
 Epoch 8/30
-794/794 [==============================] - 23s 29ms/step - loss: 0.4342 - accuracy: 0.8364 - val_loss: 0.6293 - val_accuracy: 0.8195 - lr: 0.0050
+794/794 [==============================] - 23s 29ms/step - loss: 0.4244 - accuracy: 0.8742 - val_loss: 0.8565 - val_accuracy: 0.7549 - lr: 0.0050
 
 Epoch 9: LearningRateScheduler setting learning rate to 0.004493289641172216.
 Epoch 9/30
-794/794 [==============================] - 22s 27ms/step - loss: 0.4290 - accuracy: 0.8408 - val_loss: 0.4395 - val_accuracy: 0.8375 - lr: 0.0045
+794/794 [==============================] - 23s 29ms/step - loss: 0.4198 - accuracy: 0.8742 - val_loss: 1.0525 - val_accuracy: 0.6523 - lr: 0.0045
 
 Epoch 10: LearningRateScheduler setting learning rate to 0.004065696597405992.
 Epoch 10/30
-794/794 [==============================] - 21s 26ms/step - loss: 0.4117 - accuracy: 0.8424 - val_loss: 0.2677 - val_accuracy: 0.9123 - lr: 0.0041
+794/794 [==============================] - 23s 29ms/step - loss: 0.4090 - accuracy: 0.8856 - val_loss: 0.3258 - val_accuracy: 0.9185 - lr: 0.0041
 
 Epoch 11: LearningRateScheduler setting learning rate to 0.0036787944117144234.
 Epoch 11/30
-794/794 [==============================] - 19s 24ms/step - loss: 0.3957 - accuracy: 0.8524 - val_loss: 0.3137 - val_accuracy: 0.8931 - lr: 0.0037
+794/794 [==============================] - 23s 29ms/step - loss: 0.3781 - accuracy: 0.8890 - val_loss: 0.2426 - val_accuracy: 0.9471 - lr: 0.0037
 
 Epoch 12: LearningRateScheduler setting learning rate to 0.003328710836980796.
 Epoch 12/30
-794/794 [==============================] - 19s 25ms/step - loss: 0.3798 - accuracy: 0.8669 - val_loss: 0.4173 - val_accuracy: 0.8538 - lr: 0.0033
+794/794 [==============================] - 20s 26ms/step - loss: 0.3483 - accuracy: 0.9011 - val_loss: 0.2689 - val_accuracy: 0.9330 - lr: 0.0033
 
 Epoch 13: LearningRateScheduler setting learning rate to 0.0030119421191220205.
 Epoch 13/30
-794/794 [==============================] - 20s 26ms/step - loss: 0.3744 - accuracy: 0.8707 - val_loss: 0.3627 - val_accuracy: 0.8811 - lr: 0.0030
+794/794 [==============================] - 21s 27ms/step - loss: 0.3407 - accuracy: 0.9019 - val_loss: 0.2383 - val_accuracy: 0.9447 - lr: 0.0030
 
 Epoch 14: LearningRateScheduler setting learning rate to 0.002725317930340126.
 Epoch 14/30
-794/794 [==============================] - 20s 25ms/step - loss: 0.3636 - accuracy: 0.8763 - val_loss: 0.5152 - val_accuracy: 0.8392 - lr: 0.0027
+794/794 [==============================] - 23s 29ms/step - loss: 0.3240 - accuracy: 0.9040 - val_loss: 0.5511 - val_accuracy: 0.8273 - lr: 0.0027
 
 Epoch 15: LearningRateScheduler setting learning rate to 0.0024659696394160645.
 Epoch 15/30
-794/794 [==============================] - 20s 25ms/step - loss: 0.3430 - accuracy: 0.8849 - val_loss: 0.2201 - val_accuracy: 0.9504 - lr: 0.0025
+794/794 [==============================] - 23s 29ms/step - loss: 0.3120 - accuracy: 0.9074 - val_loss: 1.0918 - val_accuracy: 0.6136 - lr: 0.0025
 
 Epoch 16: LearningRateScheduler setting learning rate to 0.0022313016014842983.
 Epoch 16/30
-794/794 [==============================] - 22s 28ms/step - loss: 0.3219 - accuracy: 0.8970 - val_loss: 0.2161 - val_accuracy: 0.9498 - lr: 0.0022
+794/794 [==============================] - 23s 29ms/step - loss: 0.3005 - accuracy: 0.9078 - val_loss: 0.2462 - val_accuracy: 0.9354 - lr: 0.0022
 
 Epoch 17: LearningRateScheduler setting learning rate to 0.002018965179946554.
 Epoch 17/30
-794/794 [==============================] - 19s 24ms/step - loss: 0.3025 - accuracy: 0.8994 - val_loss: 0.3261 - val_accuracy: 0.8962 - lr: 0.0020
+794/794 [==============================] - 23s 29ms/step - loss: 0.2902 - accuracy: 0.9121 - val_loss: 0.4450 - val_accuracy: 0.8482 - lr: 0.0020
 
 Epoch 18: LearningRateScheduler setting learning rate to 0.001826835240527346.
 Epoch 18/30
-794/794 [==============================] - 19s 24ms/step - loss: 0.3027 - accuracy: 0.9046 - val_loss: 0.3171 - val_accuracy: 0.9022 - lr: 0.0018
+794/794 [==============================] - 23s 29ms/step - loss: 0.2898 - accuracy: 0.9108 - val_loss: 0.2932 - val_accuracy: 0.9075 - lr: 0.0018
 
 Epoch 19: LearningRateScheduler setting learning rate to 0.0016529888822158654.
 Epoch 19/30
-794/794 [==============================] - 20s 25ms/step - loss: 0.2795 - accuracy: 0.9160 - val_loss: 0.2254 - val_accuracy: 0.9366 - lr: 0.0017
+794/794 [==============================] - 23s 29ms/step - loss: 0.2728 - accuracy: 0.9166 - val_loss: 0.2743 - val_accuracy: 0.9205 - lr: 0.0017
 
 Epoch 20: LearningRateScheduler setting learning rate to 0.0014956861922263505.
 Epoch 20/30
-794/794 [==============================] - 20s 25ms/step - loss: 0.2676 - accuracy: 0.9178 - val_loss: 0.4013 - val_accuracy: 0.8697 - lr: 0.0015
+794/794 [==============================] - 23s 29ms/step - loss: 0.2613 - accuracy: 0.9191 - val_loss: 0.2003 - val_accuracy: 0.9444 - lr: 0.0015
 
 Epoch 21: LearningRateScheduler setting learning rate to 0.0013533528323661271.
 Epoch 21/30
-794/794 [==============================] - 21s 27ms/step - loss: 0.2484 - accuracy: 0.9246 - val_loss: 0.3858 - val_accuracy: 0.8812 - lr: 0.0014
+794/794 [==============================] - 23s 29ms/step - loss: 0.2541 - accuracy: 0.9205 - val_loss: 0.1696 - val_accuracy: 0.9571 - lr: 0.0014
 
 Epoch 22: LearningRateScheduler setting learning rate to 0.001224564282529819.
 Epoch 22/30
-794/794 [==============================] - 23s 29ms/step - loss: 0.2416 - accuracy: 0.9245 - val_loss: 0.2785 - val_accuracy: 0.9178 - lr: 0.0012
+794/794 [==============================] - 23s 29ms/step - loss: 0.2454 - accuracy: 0.9238 - val_loss: 0.2116 - val_accuracy: 0.9363 - lr: 0.0012
 
 Epoch 23: LearningRateScheduler setting learning rate to 0.0011080315836233387.
 Epoch 23/30
-794/794 [==============================] - 23s 29ms/step - loss: 0.2341 - accuracy: 0.9270 - val_loss: 0.1704 - val_accuracy: 0.9565 - lr: 0.0011
+794/794 [==============================] - 23s 29ms/step - loss: 0.2411 - accuracy: 0.9219 - val_loss: 0.1838 - val_accuracy: 0.9490 - lr: 0.0011
 
 Epoch 24: LearningRateScheduler setting learning rate to 0.001002588437228037.
 Epoch 24/30
-794/794 [==============================] - 23s 29ms/step - loss: 0.2228 - accuracy: 0.9323 - val_loss: 0.1596 - val_accuracy: 0.9604 - lr: 0.0010
+794/794 [==============================] - 23s 29ms/step - loss: 0.2317 - accuracy: 0.9285 - val_loss: 0.3427 - val_accuracy: 0.8854 - lr: 0.0010
 
 Epoch 25: LearningRateScheduler setting learning rate to 0.0009071795328941247.
 Epoch 25/30
-794/794 [==============================] - 23s 29ms/step - loss: 0.2192 - accuracy: 0.9328 - val_loss: 0.1701 - val_accuracy: 0.9536 - lr: 9.0718e-04
+794/794 [==============================] - 23s 29ms/step - loss: 0.2268 - accuracy: 0.9266 - val_loss: 0.3881 - val_accuracy: 0.8650 - lr: 9.0718e-04
 
 Epoch 26: LearningRateScheduler setting learning rate to 0.0008208499862389881.
 Epoch 26/30
-794/794 [==============================] - 23s 28ms/step - loss: 0.2084 - accuracy: 0.9329 - val_loss: 0.2309 - val_accuracy: 0.9268 - lr: 8.2085e-04
+794/794 [==============================] - 23s 29ms/step - loss: 0.2187 - accuracy: 0.9307 - val_loss: 0.2074 - val_accuracy: 0.9364 - lr: 8.2085e-04
 
 Epoch 27: LearningRateScheduler setting learning rate to 0.0007427357821433388.
 Epoch 27/30
-794/794 [==============================] - 21s 27ms/step - loss: 0.2062 - accuracy: 0.9360 - val_loss: 0.2322 - val_accuracy: 0.9261 - lr: 7.4274e-04
+794/794 [==============================] - 23s 29ms/step - loss: 0.2230 - accuracy: 0.9292 - val_loss: 0.2745 - val_accuracy: 0.9142 - lr: 7.4274e-04
 
 Epoch 28: LearningRateScheduler setting learning rate to 0.0006720551273974976.
 Epoch 28/30
-794/794 [==============================] - 23s 29ms/step - loss: 0.1994 - accuracy: 0.9365 - val_loss: 0.2425 - val_accuracy: 0.9242 - lr: 6.7206e-04
+794/794 [==============================] - 22s 28ms/step - loss: 0.2262 - accuracy: 0.9242 - val_loss: 0.1761 - val_accuracy: 0.9475 - lr: 6.7206e-04
 
 Epoch 29: LearningRateScheduler setting learning rate to 0.0006081006262521795.
 Epoch 29/30
-794/794 [==============================] - 23s 29ms/step - loss: 0.1902 - accuracy: 0.9419 - val_loss: 0.1588 - val_accuracy: 0.9558 - lr: 6.0810e-04
+794/794 [==============================] - 23s 29ms/step - loss: 0.2067 - accuracy: 0.9314 - val_loss: 0.1604 - val_accuracy: 0.9535 - lr: 6.0810e-04
 
 Epoch 30: LearningRateScheduler setting learning rate to 0.0005502322005640721.
 Epoch 30/30
-794/794 [==============================] - 21s 27ms/step - loss: 0.1925 - accuracy: 0.9387 - val_loss: 0.1403 - val_accuracy: 0.9609 - lr: 5.5023e-04
-2227/2227 [==============================] - 12s 6ms/step - loss: 0.4969 - accuracy: 0.8512
-Test Loss: 0.4969055652618408
-Test Accuracy: 0.8512009382247925
+794/794 [==============================] - 23s 29ms/step - loss: 0.1983 - accuracy: 0.9363 - val_loss: 0.2132 - val_accuracy: 0.9313 - lr: 5.5023e-04
+2227/2227 [==============================] - 14s 6ms/step - loss: 0.5806 - accuracy: 0.8269
+Test Loss: 0.5806101560592651
+Test Accuracy: 0.8269158005714417
 2227/2227 [==============================] - 14s 6ms/step
+
+- time based decay (likely a bug)
+
+Epoch 1: LearningRateScheduler setting learning rate to 0.01.
+Epoch 1/30
+794/794 [==============================] - 24s 29ms/step - loss: 2.2015 - accuracy: 0.7826 - val_loss: 1.0901 - val_accuracy: 0.9100 - lr: 0.0100
+epoch 1
+lr 0.009999999776482582
+
+Epoch 2: LearningRateScheduler setting learning rate to 0.009996667553964594.
+Epoch 2/30
+794/794 [==============================] - 23s 29ms/step - loss: 1.3131 - accuracy: 0.8136 - val_loss: 1.0634 - val_accuracy: 0.9127 - lr: 0.0100
+epoch 2
+lr 0.009996667504310608
+
+Epoch 3: LearningRateScheduler setting learning rate to 0.009990007499311069.
+Epoch 3/30
+794/794 [==============================] - 23s 29ms/step - loss: 1.2017 - accuracy: 0.8102 - val_loss: 1.0131 - val_accuracy: 0.7663 - lr: 0.0100
+epoch 3
+lr 0.009990007616579533
+
+Epoch 4: LearningRateScheduler setting learning rate to 0.009980027588990543.
+Epoch 4/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.9119 - accuracy: 0.8126 - val_loss: 0.8791 - val_accuracy: 0.7673 - lr: 0.0100
+epoch 4
+lr 0.009980027563869953
+
+Epoch 5: LearningRateScheduler setting learning rate to 0.009966738579097823.
+Epoch 5/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.7151 - accuracy: 0.8167 - val_loss: 0.4278 - val_accuracy: 0.8679 - lr: 0.0100
+epoch 5
+lr 0.009966738522052765
+
+Epoch 6: LearningRateScheduler setting learning rate to 0.009950154930501928.
+Epoch 6/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.5695 - accuracy: 0.8178 - val_loss: 0.5300 - val_accuracy: 0.8578 - lr: 0.0100
+epoch 6
+lr 0.009950155392289162
+
+Epoch 7: LearningRateScheduler setting learning rate to 0.009930294802683794.
+Epoch 7/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.5412 - accuracy: 0.8182 - val_loss: 0.3763 - val_accuracy: 0.8919 - lr: 0.0099
+epoch 7
+lr 0.009930294938385487
+
+Epoch 8: LearningRateScheduler setting learning rate to 0.009907178189277173.
+Epoch 8/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.6556 - accuracy: 0.8134 - val_loss: 1.5485 - val_accuracy: 0.3596 - lr: 0.0099
+epoch 8
+lr 0.009907178580760956
+
+Epoch 9: LearningRateScheduler setting learning rate to 0.009880829701556805.
+Epoch 9/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.5910 - accuracy: 0.8270 - val_loss: 0.7766 - val_accuracy: 0.7812 - lr: 0.0099
+epoch 9
+lr 0.009880829602479935
+
+Epoch 10: LearningRateScheduler setting learning rate to 0.009851275775154471.
+Epoch 10/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.5602 - accuracy: 0.8171 - val_loss: 0.4250 - val_accuracy: 0.9029 - lr: 0.0099
+epoch 10
+lr 0.009851275943219662
+
+Epoch 11: LearningRateScheduler setting learning rate to 0.009818547451713948.
+Epoch 11/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.5788 - accuracy: 0.8204 - val_loss: 1.0513 - val_accuracy: 0.8974 - lr: 0.0098
+epoch 11
+lr 0.009818547405302525
+
+Epoch 12: LearningRateScheduler setting learning rate to 0.009782677587481758.
+Epoch 12/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.5221 - accuracy: 0.8221 - val_loss: 1.5315 - val_accuracy: 0.4136 - lr: 0.0098
+epoch 12
+lr 0.00978267751634121
+
+Epoch 13: LearningRateScheduler setting learning rate to 0.009743702705519133.
+Epoch 13/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.5705 - accuracy: 0.8247 - val_loss: 0.5145 - val_accuracy: 0.8509 - lr: 0.0097
+epoch 13
+lr 0.009743702597916126
+
+Epoch 14: LearningRateScheduler setting learning rate to 0.009701662062312771.
+Epoch 14/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.5290 - accuracy: 0.8210 - val_loss: 0.8813 - val_accuracy: 0.7267 - lr: 0.0097
+epoch 14
+lr 0.009701661765575409
+
+Epoch 15: LearningRateScheduler setting learning rate to 0.009656597643240289.
+Epoch 15/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.5073 - accuracy: 0.8234 - val_loss: 0.3981 - val_accuracy: 0.8693 - lr: 0.0097
+epoch 15
+lr 0.00965659786015749
+
+Epoch 16: LearningRateScheduler setting learning rate to 0.009608555084733822.
+Epoch 16/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.5221 - accuracy: 0.8203 - val_loss: 0.4242 - val_accuracy: 0.8851 - lr: 0.0096
+epoch 16
+lr 0.009608554653823376
+
+Epoch 17: LearningRateScheduler setting learning rate to 0.009557580889081606.
+Epoch 17/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.5203 - accuracy: 0.8182 - val_loss: 0.7417 - val_accuracy: 0.7709 - lr: 0.0096
+epoch 17
+lr 0.009557580575346947
+
+Epoch 18: LearningRateScheduler setting learning rate to 0.00950372612729229.
+Epoch 18/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.5116 - accuracy: 0.8202 - val_loss: 0.6560 - val_accuracy: 0.8081 - lr: 0.0095
+epoch 18
+lr 0.009503725916147232
+
+Epoch 19: LearningRateScheduler setting learning rate to 0.009447043654221901.
+Epoch 19/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.5180 - accuracy: 0.8217 - val_loss: 0.3126 - val_accuracy: 0.9077 - lr: 0.0094
+epoch 19
+lr 0.009447043761610985
+
+Epoch 20: LearningRateScheduler setting learning rate to 0.009387589031080806.
+Epoch 20/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.5683 - accuracy: 0.8238 - val_loss: 0.3690 - val_accuracy: 0.8921 - lr: 0.0094
+epoch 20
+lr 0.009387589059770107
+
+Epoch 21: LearningRateScheduler setting learning rate to 0.00932541959579812.
+Epoch 21/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.5095 - accuracy: 0.8225 - val_loss: 0.4284 - val_accuracy: 0.8550 - lr: 0.0093
+epoch 21
+lr 0.009325419552624226
+
+Epoch 22: LearningRateScheduler setting learning rate to 0.009260595384929718.
+Epoch 22/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.4975 - accuracy: 0.8221 - val_loss: 0.5089 - val_accuracy: 0.8275 - lr: 0.0093
+epoch 22
+lr 0.00926059577614069
+
+Epoch 23: LearningRateScheduler setting learning rate to 0.009193179129193272.
+Epoch 23/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.4969 - accuracy: 0.8226 - val_loss: 0.3044 - val_accuracy: 0.8947 - lr: 0.0092
+epoch 23
+lr 0.009193179197609425
+
+Epoch 24: LearningRateScheduler setting learning rate to 0.009123234400538627.
+Epoch 24/30
+794/794 [==============================] - 23s 28ms/step - loss: 0.4843 - accuracy: 0.8251 - val_loss: 0.6338 - val_accuracy: 0.8267 - lr: 0.0091
+epoch 24
+lr 0.009123234078288078
+
+Epoch 25: LearningRateScheduler setting learning rate to 0.009050827458619124.
+Epoch 25/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.5111 - accuracy: 0.8245 - val_loss: 0.5252 - val_accuracy: 0.8148 - lr: 0.0091
+epoch 25
+lr 0.009050827473402023
+
+Epoch 26: LearningRateScheduler setting learning rate to 0.008976027246349114.
+Epoch 26/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.4900 - accuracy: 0.8214 - val_loss: 0.5217 - val_accuracy: 0.8421 - lr: 0.0090
+epoch 26
+lr 0.008976027369499207
+
+Epoch 27: LearningRateScheduler setting learning rate to 0.008898903538829352.
+Epoch 27/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.4869 - accuracy: 0.8247 - val_loss: 0.4822 - val_accuracy: 0.8407 - lr: 0.0089
+epoch 27
+lr 0.008898903615772724
+
+Epoch 28: LearningRateScheduler setting learning rate to 0.008819527864987834.
+Epoch 28/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.4825 - accuracy: 0.8228 - val_loss: 0.3955 - val_accuracy: 0.8559 - lr: 0.0088
+epoch 28
+lr 0.008819527924060822
+
+Epoch 29: LearningRateScheduler setting learning rate to 0.008737973504683772.
+Epoch 29/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.5118 - accuracy: 0.8177 - val_loss: 0.6181 - val_accuracy: 0.8128 - lr: 0.0087
+epoch 29
+lr 0.008737973868846893
+
+Epoch 30: LearningRateScheduler setting learning rate to 0.008654315485817325.
+Epoch 30/30
+794/794 [==============================] - 23s 29ms/step - loss: 0.4935 - accuracy: 0.8271 - val_loss: 0.3376 - val_accuracy: 0.8704 - lr: 0.0087
+2227/2227 [==============================] - 14s 6ms/step - loss: 0.3858 - accuracy: 0.8319
+Test Loss: 0.38575664162635803
+Test Accuracy: 0.8318991661071777
+2227/2227 [==============================] - 14s 6ms/step
+
