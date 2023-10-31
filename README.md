@@ -2,6 +2,22 @@
 
 ## Python Version = 3.9.18
 
+Description of each file (as of October 26):
+Jonat-evaluation ipynb - author: Sae
+- all implementation of experiments is in here.
+
+experiment.txt, experiment2.txt
+- all documentation from learning rate scheduler experiment, very specific (output by each epoch)
+
+gridSearchResult.txt
+- documentation from grid search, it shows results from 16 combinations of hyperparameters.
+
+gridSearchEpochResult.txt
+- all documentations from grid search, it includes all epoch so it's very long.
+
+
+____________
+
 Update:
 Dataset = train, development and evaluation data (Train data is for training, development data is for evaluation for each epoch, and evaluation data is equivalent to testing data)
 - mfcc
